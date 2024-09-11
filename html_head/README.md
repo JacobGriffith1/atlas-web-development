@@ -11,3 +11,11 @@ At the end of this project, be able to explain:
 - How to create a description in search engines
 - What is meta data
 - What is SEO
+
+## Contents
+
+This project features a simple webpage with some information about myself and my interests.
+
+## To Launch
+
+Open the 'index.html' file in a web browser of your choice.
