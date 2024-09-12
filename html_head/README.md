@@ -13,9 +13,7 @@ At the end of this project, be able to explain:
 - What is SEO
 
 ## Contents
-
 This project features a simple webpage with some information about myself and my interests.
 
 ## To Launch
-
 Open the 'index.html' file in a web browser of your choice.
