@@ -2,3 +2,8 @@
     font-family: SourceSansPro;
     src:url(/fonts/SourceSansPro-Regular.otf)
 }
+
+@font-face {
+    font-family: SpinCycle;
+    src:url(/fonts/spincycle_ot.otf)
+}
