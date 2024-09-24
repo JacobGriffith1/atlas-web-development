@@ -1,9 +1,167 @@
 @font-face {
     font-family: SourceSansPro;
-    src:url(/fonts/SourceSansPro-Regular.otf)
+    src:url(fonts/SourceSansPro-Regular.otf)
 }
 
 @font-face {
     font-family: SpinCycle;
-    src:url(/fonts/spincycle_ot.otf)
+    src:url(fonts/spincycle_ot.otf)
+}
+
+body{
+    margin: 0%;
+}
+
+div.header{
+    width: 1103.41px;
+    height: 29.46px;
+    top: 35.02px;
+    left: 171.59px;
+    padding: 0px;
+    gap: 0px;
+}
+
+header.bg{
+    width: 1440px;
+    height: 1093px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url(images/pic_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a.logo{
+    width: 167.02px;
+    height: 29.46px;
+    top: 35.02px;
+    left: 171.59px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav.menu{
+    width: 234px;
+    height: 15px;
+    top: 37px;
+    left: 1041px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+a.courses{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    gap: 0px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    color: #FFFFFF;
+}
+
+a.pricing{
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    left: 102px;
+    gap: 0px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    color: #FFFFFF;        
+}
+
+a.login{
+    position: absolute;
+    width: 34px;
+    height: 15px;
+    left: 200px;
+    gap: 0px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    color: #FFFFFF;        
+}
+
+h1.get_schooled{
+    width: 684px;
+    height: 151px;
+    top: 220px;
+    left: 377px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    color: #FFFFFF;        
+}
+
+button.register{
+    width: 162px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 22px 22px 22px 22px;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.6px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #C271FF;
+    width: 162px;
+}
+
+div.pros {
+    width: 1009px;
+    height: 237px;
+    top: 758px;
+    left: 217px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+div.pro_1 {
+    width: 150px;
+    height: 237px;
+    top: 758px;
+    left: 217px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+div.pro_2{
+    width: 150px;
+    height: 237px;
+    top: 758px;
+    left: 506px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+div.pro_3{
+    width: 150px;
+    height: 237px;
+    top: 758px;
+    left: 787px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+div.pro_4{
+    width: 150px;
+    height: 237px;
+    top: 758px;
+    left: 1076px;
+    gap: 0px;
+    opacity: 0px;
 }
