@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: SourceSansProExtraLight;
+    src:url(fonts/SourceSansPro-ExtraLight.otf)
+}
+
+@font-face {
     font-family: SpinCycle;
     src:url(fonts/spincycle_ot.otf)
 }
@@ -13,7 +18,7 @@ body{
 }
 
 div.header{
-    position: relative;
+    position: absolute;
     width: 1103.41px;
     height: 29.46px;
     top: 35.02px;
@@ -61,11 +66,12 @@ a.courses{
     width: 50px;
     height: 15px;
     gap: 0px;
-    font-family: Source Sans Pro;
+    font-family: SourceSansPro;
     font-size: 12px;
     font-weight: 700;
     line-height: 15.08px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 a.pricing{
@@ -73,11 +79,12 @@ a.pricing{
     height: 15px;
     left: 102px;
     gap: 0px;
-    font-family: Source Sans Pro;
+    font-family: SourceSansPro;
     font-size: 12px;
     font-weight: 700;
     line-height: 15.08px;
-    color: #FFFFFF;        
+    color: #FFFFFF; 
+    text-decoration: none;       
 }
 
 a.login{
@@ -85,11 +92,12 @@ a.login{
     height: 15px;
     left: 200px;
     gap: 0px;
-    font-family: Source Sans Pro;
+    font-family: SourceSansPro;
     font-size: 12px;
     font-weight: 700;
     line-height: 15.08px;
-    color: #FFFFFF;        
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 section.ban_cont{
@@ -108,7 +116,7 @@ h1.get_schooled{
     left: 377px;
     gap: 0px;
     opacity: 0px;
-    font-family: Source Sans Pro;
+    font-family: SourceSansPro;
     font-size: 120px;
     font-weight: 700;
     line-height: 150.84px;
@@ -117,7 +125,7 @@ h1.get_schooled{
 }
 
 p.sgl{
-    font-family: Source Sans Pro;
+    font-family: SourceSansPro;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.11px;
@@ -154,33 +162,31 @@ button.register{
     height: 44px;
     top: 419px;
     left: 639px;
-    gap: 0px;
-    opacity: 0px;
     border-radius: 22px 22px 22px 22px;
     box-shadow: 0px 2px 20px 0px #00000080;
-    font-family: Source Sans Pro;
+    font-family: SourceSansPro;
     font-size: 14px;
     font-weight: 600;
     line-height: 17.6px;
     text-align: center;
     color: #FFFFFF;
     background: #C271FF;
-    width: 162px;
 }
 
 h2.learn{
     position: absolute;
     left: 604px;
+    top: 631px;
     font-family: Source Sans Pro;
     font-size: 32px;
     font-weight: 700;
-    line-height: 20.11px;
-    text-align: center;
+    line-height: 40.22px;
+    text-align: center;    
     color: #C271FF;
 }
 
 span.ftp{
-    font-family: Source Sans Pro;
+    font-family: SourceSansProExtraLight;
     font-size: 32px;
     font-weight: 300;
     line-height: 40.22px;
