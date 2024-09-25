@@ -92,10 +92,19 @@ a.login{
     color: #FFFFFF;        
 }
 
+section.ban_cont{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
 h1.get_schooled{
+    position: absolute;
     width: 684px;
     height: 151px;
-    top: 220px;
+    top: 120px;
     left: 377px;
     gap: 0px;
     opacity: 0px;
@@ -107,7 +116,40 @@ h1.get_schooled{
     color: #FFFFFF;        
 }
 
+p.sgl{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+span.smiles{
+    position: absolute;
+    left: 593px;
+    top: 361px;
+}
+
+span.grin{
+    position: absolute;
+    left: 704px;
+    top: 361px;
+}
+
+span.laugh{
+    position: absolute;
+    left: 797px;
+    top: 361px;
+}
+
 button.register{
+    position: absolute;
     width: 162px;
     height: 44px;
     top: 419px;
@@ -126,6 +168,26 @@ button.register{
     width: 162px;
 }
 
+h2.learn{
+    position: absolute;
+    left: 604px;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    color: #C271FF;
+}
+
+span.ftp{
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 div.pros {
     width: 1009px;
     height: 237px;
@@ -133,9 +195,16 @@ div.pros {
     left: 217px;
     gap: 0px;
     opacity: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    color: #FFFFFF;
 }
 
 div.pro_1 {
+    position: absolute;
     width: 150px;
     height: 237px;
     top: 758px;
@@ -145,6 +214,7 @@ div.pro_1 {
 }
 
 div.pro_2{
+    position: absolute;
     width: 150px;
     height: 237px;
     top: 758px;
@@ -154,6 +224,7 @@ div.pro_2{
 }
 
 div.pro_3{
+    position: absolute;
     width: 150px;
     height: 237px;
     top: 758px;
@@ -163,10 +234,17 @@ div.pro_3{
 }
 
 div.pro_4{
+    position: absolute;
     width: 150px;
     height: 237px;
     top: 758px;
     left: 1076px;
     gap: 0px;
     opacity: 0px;
+}
+
+img.pro_pic{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
