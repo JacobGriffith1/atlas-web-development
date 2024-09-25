@@ -4,6 +4,21 @@
 }
 
 @font-face {
+    font-family: SourceSansProBold;
+    src:url(fonts/SourceSansPro-Bold.otf)
+}
+
+@font-face {
+    font-family: SourceSansProSemibold;
+    src:url(fonts/SourceSansPro-Semibold.otf)
+}
+
+@font-face {
+    font-family: SourceSansProLight;
+    src:url(fonts/SourceSansPro-Light.otf)
+}
+
+@font-face {
     font-family: SourceSansProExtraLight;
     src:url(fonts/SourceSansPro-ExtraLight.otf)
 }
@@ -32,11 +47,12 @@ div.header{
 }
 
 header.bg{
-    width: 1440px;
+    width: 1400px;
     height: 1093px;
     opacity: 0px;
     background-image: url(images/pic_1.jpg);
     background-repeat: no-repeat;
+    mask-border: #071629;
 }
 
 a.logo{
@@ -116,7 +132,7 @@ h1.get_schooled{
     left: 377px;
     gap: 0px;
     opacity: 0px;
-    font-family: SourceSansPro;
+    font-family: SourceSansProBold;
     font-size: 120px;
     font-weight: 700;
     line-height: 150.84px;
@@ -125,7 +141,7 @@ h1.get_schooled{
 }
 
 p.sgl{
-    font-family: SourceSansPro;
+    font-family: SourceSansProSemibold;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.11px;
@@ -176,8 +192,8 @@ button.register{
 h2.learn{
     position: absolute;
     left: 604px;
-    top: 631px;
-    font-family: Source Sans Pro;
+    top: 604px;
+    font-family: SourceSansProBold;
     font-size: 32px;
     font-weight: 700;
     line-height: 40.22px;
