@@ -677,3 +677,29 @@ footer.footer_cont{
     height: 249px;
     background-color: #071629;
 }
+
+img.footer_logo{
+    width: 169px;
+    height: 30px;
+}
+
+div.icon_cont{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+img.soc_icon{
+    width: 30px;
+    height: 30px;
+}
+
+p.copyright{
+    width: 96px;
+    height: 15px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 35.17%;
+}
