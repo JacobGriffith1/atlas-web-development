@@ -391,3 +391,13 @@ div.star_cont{
     display: flex;
     gap: 8px;
 }
+
+p.time{
+    width: 34px;
+    height: 27px;
+    font-family: SoruceSansProSemibold;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: right;
+    color: #C271FF;
+}
