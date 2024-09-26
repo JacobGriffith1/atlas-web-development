@@ -484,6 +484,7 @@ section.member_cont{
     background-color: #071629;
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 h1.free_mem{
@@ -501,6 +502,8 @@ span.membership{
 div.smileline{
     display: flex;
     flex-flow: row nowrap;
+    gap: 28px;
+    justify-content: center;
 }
 
 div.smile_cont{
