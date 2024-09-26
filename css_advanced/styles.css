@@ -568,6 +568,9 @@ section.faq_cont{
     position: relative;
     top: 656px;
     left: 249px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 div.faqs{
@@ -578,6 +581,15 @@ div.faqs{
     gap: 220px;
     align-content: center;
     justify-items: center;
+}
+
+h1.faq_h1{
+    width: 136px;
+    height: 75px;
+    text-align: center;
+    font-family: SourceSansProLight;
+    font-size: 60px;
+    color: #071629;
 }
 
 div.q_cont{}
