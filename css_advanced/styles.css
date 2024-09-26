@@ -334,3 +334,20 @@ p.ttp2{
     color: #FFFFFF;
     margin: 0%;
 }
+
+section.tutor_cont{
+    width: 1228;
+    height: 450;
+    position: relative;
+    top: 87px;
+    left: 106px;
+}
+
+img.tut_vid{
+    width: 255px;
+    height: 154px;
+}
+
+img.lilphil{
+    size: 30px;
+}
