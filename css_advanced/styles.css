@@ -482,6 +482,8 @@ section.member_cont{
     position: relative;
     top: 624px;
     background-color: #071629;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 h1.free_mem{
@@ -496,12 +498,20 @@ span.membership{
     color: #FFFFFF;
 }
 
+div.smileline{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
 div.smile_cont{
     width: 257px;
     height: 153px;
     display: flex;
     flex-flow: column nowrap;
     justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 img.smile{
@@ -519,7 +529,15 @@ h2.memlorem_h2{
     color: #FFFFFF;
 }
 
-p.memlorem_p{}
+p.memlorem_p{
+    width: 212px;
+    height: 52px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 button.membutton{}
 
