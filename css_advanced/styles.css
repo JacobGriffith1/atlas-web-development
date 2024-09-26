@@ -481,15 +481,43 @@ section.member_cont{
     height: 502px;
     position: relative;
     top: 624px;
+    background-color: #071629;
 }
 
-h1.free_mem{}
+h1.free_mem{
+    font-family: SourceSansProBold;
+    font-size: 32px;
+    color: #C271FF;
+}
 
-div.smile_cont{}
+span.membership{
+    font-family: SourceSansProLight;
+    font-size: 32px;
+    color: #FFFFFF;
+}
 
-img.smile{}
+div.smile_cont{
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+}
 
-h2.memlorem_h2{}
+img.smile{
+    width: 43.67px;
+    height: 35.35px;
+}
+
+h2.memlorem_h2{
+    width: 256px;
+    height: 26px;
+    font-family: SourceSansProSemibold;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 p.memlorem_p{}
 
