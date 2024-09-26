@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: SourceSansProIt;
+    src: url(fonts/SourceSansPro-It.otf);
+}
+
+@font-face {
     font-family: SpinCycle;
     src:url(fonts/spincycle_ot.otf)
 }
@@ -294,9 +299,16 @@ div.test_text_cont{
     display: block;
 }
 
+img.testpro{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
 blockquote.ttbq{
-    position: relative;
-    left: -40px;
+    width: 730px;
+    height: 68px;
+    margin: 0%;
     font-family: SourceSansPro;
     font-size: 22px;
     line-height: 33.6px;
@@ -304,16 +316,21 @@ blockquote.ttbq{
 }
 
 p.ttp1{
+    width: 129px;
+    height: 34px;
     font-family: SourceSansProBold;
     font-size: 22px;
     line-height: 33.6px;
     color: #FFFFFF;
+    margin-bottom: 0%;
 }
 
-
-
-img.testpro{
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
+p.ttp2{
+    width: 165px;
+    height: 34px;
+    font-family: SourceSansProIt;
+    font-size: 22px;
+    line-height: 33.6px;
+    color: #FFFFFF;
+    margin: 0%;
 }
