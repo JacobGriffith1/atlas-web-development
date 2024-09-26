@@ -571,9 +571,12 @@ section.faq_cont{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    gap: 74px;
 }
 
 h1.faq_h1{
+    position: absolute;
+    top: 67px;
     width: 136px;
     height: 75px;
     text-align: center;
@@ -583,6 +586,8 @@ h1.faq_h1{
 }
 
 div.faqs{
+    position: absolute;
+    top: 216px;
     width: 920px;
     height: 558px;
     display: flex;
@@ -593,6 +598,8 @@ div.faqs{
 }
 
 div.q_cont{
+    position: relative;
+    top: 74px;
     width: 350px;
     height: 558px;
     display: flex;
