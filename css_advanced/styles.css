@@ -45,6 +45,8 @@
 
 body{
     margin: 0%;
+    width: 1400px;
+    height: 3718px;
 }
 
 div.header{
@@ -666,7 +668,12 @@ p.faq_lorem{
     opacity: 50.16%;
 }
 
+/* ---Footer Section--- */
+
 footer.footer_cont{
     position: relative;
-    top: 84px;
+    top: 858px;
+    width: 1400px;
+    height: 249px;
+    background-color: #071629;
 }
