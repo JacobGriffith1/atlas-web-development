@@ -564,8 +564,18 @@ section.faq_cont{
     width: 920px;
     height: 707px;
     position: relative;
-    top: 1000px;
+    top: 656px;
 }
+
+div.faqs{}
+
+div.q_cont{}
+
+div.q_text{}
+
+h2.faq_h2{}
+
+p.faq_lorem{}
 
 footer.footer_cont{
     position: relative;
