@@ -374,3 +374,12 @@ p.tut_lorem{
     color: #071629;
     opacity: 50.16%;
 }
+
+h3.phil{
+    width: 86px;
+    height: 27px;
+    font-family: SourceSansProSemibold;
+    font-size: 14;
+    line-height: 27px;
+    color: #C271FF;
+}
