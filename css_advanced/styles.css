@@ -357,3 +357,11 @@ img.star{
     width: 15px;
     height: 15px;
 }
+
+h2.tut_name{
+    width: auto;
+    height: 20px;
+    font-family: SourceSansProBold;
+    font-size: 16px;
+    color: #071629;
+}
