@@ -349,13 +349,14 @@ section.tutorial_master{
 
 section.tut_cont{
     display: flex;
+    flex-flow: row nowrap;
 }
 
 div.vid_cont{
     width: 255px;
     height: 335px;
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
 }
 
 div.phil_cont{
@@ -386,6 +387,19 @@ img.lilphil{
 img.star{
     width: 15px;
     height: 15px;
+}
+
+h1.mostpop{
+    width: 294px;
+    height: 40px;
+    font-family: SourceSansProLight;
+    font-size: 32px;
+    color: #071629;
+}
+
+span.popular{
+    font-family: SourceSansProBold;
+    color: #C271FF;
 }
 
 h2.tut_name{
