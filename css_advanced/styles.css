@@ -29,6 +29,16 @@
 }
 
 @font-face {
+    font-family: SourceSansProBlack;
+    src: url(fonts/SourceSansPro-Black.otf);
+}
+
+@font-face {
+    font-family: SourceSansProBlackIt;
+    src: url(fonts/SourceSansPro-BlackIt.otf);
+}
+
+@font-face {
     font-family: SpinCycle;
     src:url(fonts/spincycle_ot.otf)
 }
@@ -227,6 +237,29 @@ div.pros {
     justify-content: space-evenly;
     align-items: center;
     align-content: space-around;
+    color: #FFFFFF;
+}
+
+h3.pro_name{
+    width: 150px;
+    height: 27px;
+    margin: 0%;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-family: SourceSansProBlack;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+p.accolade{
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    font-family: SourceSansProIt;
+    font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;
 }
 
@@ -635,5 +668,5 @@ p.faq_lorem{
 
 footer.footer_cont{
     position: relative;
-    top: 1000px;
+    top: 84px;
 }
