@@ -351,6 +351,7 @@ img.tut_vid{
 img.lilphil{
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 }
 
 img.star{
@@ -379,7 +380,14 @@ h3.phil{
     width: 86px;
     height: 27px;
     font-family: SourceSansProSemibold;
-    font-size: 14;
+    font-size: 14px;
     line-height: 27px;
     color: #C271FF;
+}
+
+div.star_cont{
+    width: 107px;
+    height: 15px;
+    display: flex;
+    gap: 8px;
 }
