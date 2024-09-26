@@ -359,6 +359,30 @@ div.vid_cont{
     flex-flow: column nowrap;
 }
 
+div.d_pose{
+    position: absolute;
+    top: 115px;
+    left: 58px;
+}
+
+div.s_pose{
+    position: absolute;
+    top: 115px;
+    left: 344px;
+}
+
+div.n_pose{
+    position: absolute;
+    top: 115px;
+    left: 629px;
+}
+
+div.h_pose{
+    position: absolute;
+    top: 115px;
+    left: 914px;
+}
+
 div.phil_cont{
     margin-left: 13px;
     display: flex;
@@ -390,6 +414,9 @@ img.star{
 }
 
 h1.mostpop{
+    position: absolute;
+    left: 482px;
+    top: 0px;
     width: 294px;
     height: 40px;
     font-family: SourceSansProLight;
