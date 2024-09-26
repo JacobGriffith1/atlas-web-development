@@ -343,6 +343,19 @@ section.tutor_cont{
     left: 106px;
 }
 
+div.vid_cont{
+    width: 255px;
+    height: 335px;
+    display: flex;
+    flex-flow: column;
+}
+
+div.phil_cont{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
 img.tut_vid{
     width: 255px;
     height: 154px;
