@@ -14,8 +14,8 @@ At the end of this project, be able to explain:
 - How does the browser load a webpage
 
 ## Contents
--- Project features an updated version of the index from my "html_advanced" directory, now with CSS!
--- CSS takes this index from a boring framework to a well organized webpage
+- Project features an updated version of the index from my "html_advanced" directory, now with CSS!
+- CSS takes this index from a boring framework to a well organized webpage
 
 ## To Launch
--- Visit https://jacobgriffith1.github.io/atlas-web-development/css_advanced/
+- Visit https://jacobgriffith1.github.io/atlas-web-development/css_advanced/
