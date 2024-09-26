@@ -349,5 +349,11 @@ img.tut_vid{
 }
 
 img.lilphil{
-    size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+img.star{
+    width: 15px;
+    height: 15px;
 }
