@@ -573,6 +573,15 @@ section.faq_cont{
     align-items: center;
 }
 
+h1.faq_h1{
+    width: 136px;
+    height: 75px;
+    text-align: center;
+    font-family: SourceSansProLight;
+    font-size: 60px;
+    color: #071629;
+}
+
 div.faqs{
     width: 920px;
     height: 558px;
@@ -583,22 +592,27 @@ div.faqs{
     justify-items: center;
 }
 
-h1.faq_h1{
-    width: 136px;
-    height: 75px;
-    text-align: center;
-    font-family: SourceSansProLight;
-    font-size: 60px;
-    color: #071629;
+div.q_cont{
+    width: 350px;
+    height: 558px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 74px;
 }
 
-div.q_cont{}
+div.q_text{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+}
 
-div.q_text{}
+h2.faq_h2{
+    margin: 0%;
+}
 
-h2.faq_h2{}
-
-p.faq_lorem{}
+p.faq_lorem{
+    margin: 0%;
+}
 
 footer.footer_cont{
     position: relative;
