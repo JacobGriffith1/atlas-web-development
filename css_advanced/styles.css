@@ -356,6 +356,15 @@ div.phil_cont{
     align-items: center;
 }
 
+div.startime_cont{
+    position: absolute;
+    top: 305px;
+    left: 13px;
+    display: flex;
+    gap: 79px;
+    align-items: center;
+}
+
 img.tut_vid{
     width: 255px;
     height: 154px;
