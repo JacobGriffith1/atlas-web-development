@@ -473,3 +473,22 @@ p.time{
     text-align: right;
     color: #C271FF;
 }
+
+section.member_cont{
+    width: 1400px;
+    height: 502px;
+    position: relative;
+    top: 624px;
+}
+
+section.faq_cont{
+    width: 920px;
+    height: 707px;
+    position: relative;
+    top: 1000px;
+}
+
+footer.footer_cont{
+    position: relative;
+    top: 1000px;
+}
