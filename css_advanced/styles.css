@@ -335,12 +335,18 @@ p.ttp2{
     margin: 0%;
 }
 
-section.tutor_cont{
+section.tutorial_master{
     width: 1228;
     height: 450;
     position: relative;
     top: 87px;
     left: 106px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section.tut_cont{
+    display: flex;
 }
 
 div.vid_cont{
@@ -351,15 +357,14 @@ div.vid_cont{
 }
 
 div.phil_cont{
+    margin-left: 13px;
     display: flex;
     gap: 13px;
     align-items: center;
 }
 
 div.startime_cont{
-    position: absolute;
-    top: 305px;
-    left: 13px;
+    margin-left: 13px;
     display: flex;
     gap: 79px;
     align-items: center;
@@ -382,6 +387,7 @@ img.star{
 }
 
 h2.tut_name{
+    margin-left: 13px;
     width: auto;
     height: 20px;
     font-family: SourceSansProBold;
@@ -390,6 +396,7 @@ h2.tut_name{
 }
 
 p.tut_lorem{
+    margin-left: 13px;
     width: 242px;
     height: 48px;
     font-family: SourceSansPro;
