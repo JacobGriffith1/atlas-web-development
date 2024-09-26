@@ -560,14 +560,25 @@ button.membutton{
     background: #C271FF;
 }
 
+/* ---FAQ SECTION--- */
+
 section.faq_cont{
     width: 920px;
     height: 707px;
     position: relative;
     top: 656px;
+    left: 249px;
 }
 
-div.faqs{}
+div.faqs{
+    width: 920px;
+    height: 558px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 220px;
+    align-content: center;
+    justify-items: center;
+}
 
 div.q_cont{}
 
