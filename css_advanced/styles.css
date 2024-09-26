@@ -488,6 +488,9 @@ section.member_cont{
 }
 
 h1.free_mem{
+    position: absolute;
+    top: 70px;
+    margin: 0%;
     font-family: SourceSansProBold;
     font-size: 32px;
     color: #C271FF;
@@ -500,6 +503,9 @@ span.membership{
 }
 
 div.smileline{
+    position: absolute;
+    top: 168px;
+    margin: 0%;
     display: flex;
     flex-flow: row nowrap;
     gap: 28px;
@@ -542,7 +548,17 @@ p.memlorem_p{
     color: #FFFFFF;
 }
 
-button.membutton{}
+button.membutton{
+    position: absolute;
+    top: 406px;
+    margin: 0%;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px 22px 22px 22px;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    color: #FFFFFF;
+    background: #C271FF;
+}
 
 section.faq_cont{
     width: 920px;
