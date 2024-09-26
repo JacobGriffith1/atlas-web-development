@@ -679,11 +679,17 @@ footer.footer_cont{
 }
 
 img.footer_logo{
+    position: absolute;
+    top: 95px;
+    left: 165px;
     width: 169px;
     height: 30px;
 }
 
 div.icon_cont{
+    position: absolute;
+    top: 90px;
+    left: 1070px;
     width: 130px;
     height: 30px;
     display: flex;
@@ -696,6 +702,9 @@ img.soc_icon{
 }
 
 p.copyright{
+    position: absolute;
+    top: 195px;
+    left: 672px;
     width: 96px;
     height: 15px;
     font-family: SourceSansPro;
