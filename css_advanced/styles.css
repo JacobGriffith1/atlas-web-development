@@ -285,6 +285,33 @@ div.testimonial{
     display: flex;
 }
 
+div.test_text_cont{
+    position: relative;
+    top: 2px;
+    left: 53px;
+    width: 730px;
+    height: 158px;
+    display: block;
+}
+
+blockquote.ttbq{
+    position: relative;
+    left: -40px;
+    font-family: SourceSansPro;
+    font-size: 22px;
+    line-height: 33.6px;
+    color: #FFFFFF;
+}
+
+p.ttp1{
+    font-family: SourceSansProBold;
+    font-size: 22px;
+    line-height: 33.6px;
+    color: #FFFFFF;
+}
+
+
+
 img.testpro{
     border-radius: 50%;
     width: 160px;
